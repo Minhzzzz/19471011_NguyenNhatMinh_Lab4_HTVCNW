@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: auto;
+}
+var{
+    width: 1089px;
+    height:70px;
+    background-color: rgb(216, 16, 16);
+}
+.menu li {
+    height: auto;
+    width: 240px;
+    background-color: rgb(44, 38, 38);
+    float: left;
+    line-height: 50px;
+    list-style-type: none;
+    text-indent: 20px;
+}
+a{
+    color:rgb(245, 247, 241);
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+}
+.menu li:hover {
+    background-color: rgb(72, 212, 182);
+}
+li:hover>a {
+    color: rgb(250, 247, 244);
+}
+.submenu li {
+    
+    color: black;
+}
+.submenu li:hover>a {
+    color:rgb(44, 38, 38);
+    
+}
+
+.menu li .submenu{
+    display:none;
+    
+}
+.menu li:hover>.submenu{
+    display:block;
+   
+}

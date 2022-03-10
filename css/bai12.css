@@ -1,0 +1,32 @@
+.ribbon-wrapper {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    top: -3px;
+    right: -3px;
+    float: left;
+ }
+ .ribbon-red {
+    font-weight: bold;
+    font-size:13px;
+    text-transform:uppercase;
+    color: #fff;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+    position: relative;
+    padding: 7px 0;
+    left: -5px;
+    top: 15px;
+    width: 120px;
+    
+    background-color: #f53838;
+    
+    color: #fff;
+    -webkit-box-shadow: 0 0 3px #000000;
+    -moz-box-shadow: 3px 0px 3px rgba(0,0,0,0.3);
+    box-shadow: -3px 0px 3px rgba(0,0,0,0.3);
+ }
